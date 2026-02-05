@@ -37,3 +37,84 @@ week-2-my-list-python-assignment/
 │
 ├── my_list.py      # Main script containing the list logic
 └── README.md       # Documentation
+
+---
+
+## 🏃‍♂️ How to Run
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/Cynthia-M-M/week-2-my-list-python-assignment.git](https://github.com/Cynthia-M-M/week-2-my-list-python-assignment.git)
+
+```
+
+### 2. Navigate to the Folder
+
+```bash
+cd week-2-my-list-python-assignment
+
+```
+
+### 3. Run the Script
+
+```bash
+python my_list.py
+
+```
+
+---
+
+## 💻 Code Preview
+
+Here is the core logic implemented in `my_list.py`:
+
+```python
+# 1. Create an empty list
+my_list = []
+
+# 2. Append elements
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
+
+# 3. Insert value 15 at index 1
+my_list.insert(1, 15)
+
+# 4. Extend the list
+my_list.extend([50, 60, 70])
+
+# 5. Remove the last element
+my_list.pop()
+
+# 6. Sort the list
+my_list.sort()
+
+# 7. Find and print the index of 30
+index_of_30 = my_list.index(30)
+print(f"The index of 30 is: {index_of_30}")
+print(f"Final List: {my_list}")
+
+```
+
+---
+
+## 📊 Expected Output
+
+When you run the script, the console should display:
+
+```text
+The index of 30 is: 3
+Final List: [10, 15, 20, 30, 40, 50, 60]
+
+```
+
+---
+
+## 📄 License
+
+This project is open-source and created for educational purposes.
+
+```
+
+```
